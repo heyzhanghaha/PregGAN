@@ -12,6 +12,7 @@
 | Generator | Fully connected layer | BatchNorm,ReLU | 128 | 64 |
 | | Fully connected layer |  | 64 | 1 |
 | | Sigmoid  |  | 1 | 1 |
+| |  |  |  |  |
 | | Fully connected layer | BatchNorm,LeakyReLU | 31 | 64 |
 | Discriminator| Fully connected layer | BatchNorm,LeakyReLU | 64 | 128 |
 | | Fully connected layer | BatchNorm,LeakyReLU | 128 | 64 |

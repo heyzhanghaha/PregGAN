@@ -5,8 +5,8 @@
 
 | | Layer | Detail | Input Sizes | Output sizes |
 | ---- | ---- | ---- | ---- | ---- |
-|- | Fully connected layer | BatchNorm,ReLU | 50 | 64 |
-| -| Fully connected layer | BatchNorm,ReLU | 64 | 128 |
-|- | Fully connected layer | BatchNorm,ReLU | 128 | 64 |
-| -| Fully connected layer |  | 64 | 1 |
-|- | Sigmoid  |  - | 1 | 1 |
+| | Fully connected layer | BatchNorm,ReLU | 50 | 64 |
+| | Fully connected layer | BatchNorm,ReLU | 64 | 128 |
+| Generator | Fully connected layer | BatchNorm,ReLU | 128 | 64 |
+| | Fully connected layer |  | 64 | 1 |
+| | Sigmoid  |  | 1 | 1 |
